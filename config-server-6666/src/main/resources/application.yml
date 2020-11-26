@@ -10,7 +10,11 @@ spring:
         git:
           uri: https://github.com/throwAndCatch/test_config.git
           search-paths: test_config
-
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
 
 eureka:
   instance:
@@ -25,4 +29,8 @@ eureka:
     service-url:
       #defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
       defaultZone: http://eureka7001.com:7001/eureka
-
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

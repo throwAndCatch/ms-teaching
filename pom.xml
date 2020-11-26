@@ -23,6 +23,7 @@
         <module>gateway-7777</module>
         <module>config-server-6666</module>
         <module>config-client-5555</module>
+        <module>config-client-3334</module>
     </modules>
 
     <dependencyManagement>

@@ -1,8 +1,8 @@
 server:
-  port: 2234
+  port: 3334
 spring:
   application:
-    name: config-client-5555
+    name: config-client-3334
   cloud:
     config:
       label: main
@@ -18,7 +18,7 @@ spring:
 eureka:
   instance:
     hostname: localhost
-    instance-id: config-client-5555
+    instance-id: config-client-3334
     prefer-ip-address: true
 #    lease-renewal-interval-in-seconds: 1
 #    lease-expiration-duration-in-seconds: 2
