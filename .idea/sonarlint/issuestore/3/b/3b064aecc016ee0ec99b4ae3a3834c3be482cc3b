@@ -1,0 +1,19 @@
+
+J	java:S108")Either remove or fill this block of code.(‚¦¡ûûÿÿÿÿ8¸Š²Õİ.
+j	java:S100#"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğØ¼©8Ò›µşİ.
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸¤úø8Í¹ÏÖİ.
+e
+java:S3518"CMake sure this expression can't be zero before doing this division.(ÏŠ„˜ûÿÿÿÿ8ãª„şİ.
+M
+java:S1481"+Remove this unused "result" local variable.(ÏŠ„˜ûÿÿÿÿ8ãª„şİ.
+a	java:S112'"FDefine and throw a dedicated exception instead of using a generic one.(‰Æáe8íæËşİ.
+j	java:S100*"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ª¤©8Ì€µşİ.
+h
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(‚¦¡ûûÿÿÿÿ8¸Š²Õİ.
+F
+java:S1172")Remove this unused method parameter "id".(¸¤úø8Í¹ÏÖİ.
+[
+java:S3400"9Remove this method and declare a constant for this value.(ñÕ‡‰şÿÿÿÿ8Í¹ÏÖİ.
+\
+java:S1854":Remove this useless assignment to local variable "result".(ÏŠ„˜ûÿÿÿÿ8ãª„şİ.
+b	java:S112#"FDefine and throw a dedicated exception instead of using a generic one.(ğØ¼©8ïİºşİ.

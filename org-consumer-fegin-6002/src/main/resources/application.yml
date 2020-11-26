@@ -1,0 +1,26 @@
+server:
+  port: 6002
+spring:
+  application:
+    name: org-consumer-6002
+eureka:
+  instance:
+    hostname: localhost
+    instance-id: org-consumer-6002
+    prefer-ip-address: true
+#    lease-renewal-interval-in-seconds: 1
+#    lease-expiration-duration-in-seconds: 2
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      #defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+      defaultZone: http://eureka7001.com:7001/eureka
+logging:
+  level:
+    com.demo.clients.OrgClient: debug
+
+
+ribbon:
+  ReadTimeout: 1000
+  ConnectTimeOut: 2000

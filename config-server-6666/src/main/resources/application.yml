@@ -1,0 +1,28 @@
+server:
+  port: 1234
+spring:
+  application:
+    name: config-server-6666
+  cloud:
+    config:
+      label: main
+      server:
+        git:
+          uri: https://github.com/throwAndCatch/test_config.git
+          search-paths: test_config
+
+
+eureka:
+  instance:
+    hostname: localhost
+    instance-id: config-server-6666
+    prefer-ip-address: true
+#    lease-renewal-interval-in-seconds: 1
+#    lease-expiration-duration-in-seconds: 2
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      #defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+      defaultZone: http://eureka7001.com:7001/eureka
+
